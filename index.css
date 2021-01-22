@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+}
+.card1{
+    background-color: yellow;
+    border: black;
+    border-radius: 5px;
+    width: 10em;
+    position: absolute;
+    left: 5em;
+    top: 5em;
+}
+#cardImage1{
+    width: 10em;
+    height: 10em;
+    background-color: rgb(134, 4, 240);
+    border: 1em black;
+}
+#details1{
+    background-color: rgb(112, 111, 111);
+    display: grid;
+    width: 10em;
+    color: white;
+}
+.card2{
+    background-color: yellow;
+    border: black;
+    border-radius: 5px;
+    width: 10em;
+    position: absolute;
+    left: 17em;
+    top: 5em;
+}
+#cardImage2{
+    width: 10em;
+    height: 10em;
+    background-color: rgb(134, 4, 240);
+}
+#details2{
+    display: grid;
+    width: 10em;
+    background-color:rgb(112, 111, 111);
+    color: white;
+}
+.card3{
+    background-color: yellow;
+    border: black;
+    border-radius: 5px;
+    width: 10em;
+    position: absolute;
+    left: 29em;
+    top: 5em;
+}
+#cardImage3{
+    width: 10em;
+    height: 10em;
+    background-color: rgb(134, 4, 240);
+}
+#details3{
+    display: grid;
+    width: 10em;
+    background-color: rgb(112, 111, 111);
+    color: white;
+}
+.card4{
+    background-color: yellow;
+    border: black;
+    border-radius: 5px;
+    width: 10em;
+    position: absolute;
+    left: 41em;
+    top: 5em;
+}
+#cardImage4{
+    width: 10em;
+    height: 10em;
+    background-color: rgb(134, 4, 240);
+}
+#details4{
+    display: grid;
+    width: 10em;
+    background-color: rgb(112, 111, 111);
+    color: white;
+}
+
+.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+    transform: scale(1.2);
+    transition: ease-out 0.8s;
+}
